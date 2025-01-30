@@ -1,0 +1,54 @@
+.homepage {
+    position: relative;
+    height: 100vh;
+}
+
+.homepage_bgImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.homepage_bgImg img {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.homepage_title {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-top: 240px;
+}
+
+.homepage_title h1 {
+    padding-bottom: 80px;
+}
+
+.homepage_title div {
+    display: flex;
+    gap: 35px;
+}
+
+.homepage_searchInput {
+    width: 320px;
+    height: 48px;
+    border-radius: 100px;
+    border: 2px solid transparent;
+    padding-left: 18px;
+    outline: none;
+    transition: border-color 0.4s ease;
+}
+
+.homepage_searchInput:focus {
+    border-color: #93A27C;
+    outline: none;
+}

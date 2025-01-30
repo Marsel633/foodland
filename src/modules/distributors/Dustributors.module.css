@@ -1,0 +1,17 @@
+.distributors {
+    padding: 65px 0;
+}
+.distributors h1 {
+    text-align: center;
+}
+.distributors_logos {
+    height: 120px;
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.distributors_logos img {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
+}

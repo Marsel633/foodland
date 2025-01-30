@@ -1,0 +1,81 @@
+.lastNews {
+  padding: 76px 0;
+  background-color: #f4f4f4;
+}
+
+.lastNews_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.lastNews_header_title {
+  width: 60%;
+}
+
+.lastNews_header_title h5 {
+  font-family: Montserrat Alternates;
+  font-size: 18px;
+  font-weight: 500;
+  color: #93a27c;
+}
+
+.lastNews_content {
+  display: flex;
+  padding-top: 65px;
+  gap: 40px;
+}
+
+.lastNews_otherNews {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.news_mainNews {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.mainNews_image img {
+  border-radius: 16px;
+}
+
+.mainNews_header {
+  font-family: Montserrat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mainNews_header h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.mainNews_header p {
+  opacity: 50%;
+  font-weight: 500;
+}
+
+.mainNews_content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mainNews_content p {
+  font-family: Open Sans;
+  text-align-last: left;
+  font-size: 14px;
+  opacity: 50%;
+}
+
+.mainNews_content a {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+}

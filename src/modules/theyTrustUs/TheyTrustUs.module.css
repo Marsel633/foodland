@@ -1,0 +1,33 @@
+.theyTrustUs {
+    padding: 65px 0;
+}
+
+.theyTrustUs h1 {
+    text-align: center;
+}
+
+.logoWrapper {
+    overflow: hidden;
+    margin-top: 90px;
+}
+
+.theyTrustUs_logos {
+    display: flex;
+    gap: 40px;
+    height: 180px;
+    width: max-content;
+}
+
+.logo {
+    height: 180px;
+    width: 180px;
+    flex-shrink: 0;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}

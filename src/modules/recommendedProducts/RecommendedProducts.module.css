@@ -1,0 +1,75 @@
+.recommendedProducts {
+  padding: 76px 0;
+  background-color: #f4f4f4;
+}
+
+.recommendedProducts_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.recommendedProducts_header_title {
+  width: 50%;
+}
+
+.recommendedProducts_header_title h5 {
+  font-family: Montserrat Alternates;
+  font-size: 18px;
+  font-weight: 500;
+  color: #93a27c;
+}
+
+.recommendedProducts_cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px 0 40px;
+}
+
+.recommendedProducts_pageSelect_btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.pageSelect_btn, .pageSelect_arrowBtn {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    color: #93a27c;
+    border: none;
+    transition: all ease 0.4s;
+}
+
+.pageSelect_btn:hover {
+    background-color: #93a27c;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.pageSelect_btn:focus {
+    background-color: #93a27c;
+    color: #ffffff;
+}
+
+@keyframes moveArrow {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+  }
+
+.pageSelect_arrowBtn {
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+}
+
+.pageSelect_arrowBtn:hover {
+    animation: moveArrow 1s infinite ease-in-out;
+}

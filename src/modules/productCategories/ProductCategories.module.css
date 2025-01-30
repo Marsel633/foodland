@@ -1,0 +1,15 @@
+.productCategories {
+    background-color: #FAF5F1;
+    padding-top: 72px;
+    padding-bottom: 152px;
+}
+
+.productCategories_cards {
+    display: flex;
+    padding-top: 40px;
+    gap: 40px;
+}
+
+.productCategories_title_item {
+    color: #B89776;
+}

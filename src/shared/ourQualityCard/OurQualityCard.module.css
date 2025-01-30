@@ -1,0 +1,57 @@
+.quality_card {
+    height: 350px;
+    width: 320px;
+    border-radius: 10px;
+    border: 1px solid #E6E6E6;
+    padding: 25px 15px 28px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quality_card_title {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.quality_card p , .quality_card_subtitle {
+font-family: Open Sans;
+font-weight: 400;
+font-size: 13px;
+line-height: 17.7px;
+color: #707070;
+}
+
+/* Стили для карточек с картинкой на заднем фоне */
+
+.quality_product_card {
+    height: 350px;
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+}
+
+.product_btn {
+    position: absolute;
+    top: 42px;
+    font-size: 14px;
+    font-family: Open Sans;
+    height: 29px;
+    width: 110px;
+    background-color: #93A27C;
+    color: #ffffff;
+    border-radius: 100px;
+    border: 1px solid #93A27C;
+    transition: ease 0.4s;
+}
+
+.product_btn:hover {
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}

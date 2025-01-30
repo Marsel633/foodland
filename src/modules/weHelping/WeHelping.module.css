@@ -1,0 +1,36 @@
+.weHelping {
+    width: 100%;
+    padding-top: 118px;
+    padding-bottom: 152px;
+}
+
+.weHelping_content {
+    display: flex;
+    gap: 13px;
+    padding-top: 47px;
+}
+
+.weHelping_item {
+    width: 525px;
+    height: 503px;
+    border-radius: 15px;
+    background-color: #93A27C;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.weHelping_item p {
+    font-family: Open Sans;
+    color: #ffffff;
+    padding: 0 30px 30px;
+}
+
+.weHelping_itemImg {
+    position: relative;
+}
+
+.weHelping_itemImg button {
+    position: absolute;
+    bottom: 30px;
+    right: 36px;
+}

@@ -1,0 +1,48 @@
+.news_card {
+    width: 730px;
+    height: 146px;
+    display: flex;
+    gap: 25px;
+}
+
+.card_image img {
+    border-radius: 16px;
+}
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card_content p {
+    font-family: Open Sans;
+    text-align-last: left;
+    font-size: 14px;
+    opacity: 50%;
+}
+
+.card_content a {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card_header {
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card_header h5 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card_header p {
+    opacity: 50%;
+    font-weight: 500;
+}
